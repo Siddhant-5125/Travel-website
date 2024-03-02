@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       nav {
+    height: 40px;
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    padding-top: 25px;
+            }
+nav:hover {
+    display: block; /* Display the navigation when hovered over */
+          }
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 10px;
+    }
+nav a:hover {
+   color: #555;
+            }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgb(36,0,27);
+background: linear-gradient(90deg, rgba(36,0,27,1) 0%, rgba(121,9,105,1) 45%, rgba(255,0,219,1) 100%);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            font-size: 50px;
+            color: white;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+        <body>
+        <!-- <img src="/logo.jpg" alt="logo" width="100" height="100"> -->
+
+        <nav>
+            <!--<img src="WhatsApp Image 2024-02-23 at 10.40.44.jpeg" style="height: 50px; width: 50px; ">-->
+            <a href="travel-india.html">Home</a>
+            <a href="destination.html">Destinations</a>
+            <a href="booking.html">Booking</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="abus.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+
+        <h1>Book Your Travel</h1>
+   <div class="container">
+       
+       <form action="booking_confirmation.php" method="post">
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required>
+           
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required>
+           
+           <label for="destination">Destination:</label>
+           <select id="destination" name="destination" required>
+               <option value="">Select Destination</option>
+               <option value="Uttar Pradesh">Uttar Pradesh</option>
+               <option value="Rajasthan">Rajasthan</option>
+               <option value="Maharashtra">Maharashtra</option>
+               <option value="Goa">Goa</option>
+               <option value="Kerala">Kerala</option>
+           </select>
+           
+           <label for="date">Travel Date:</label>
+           <input type="date" id="date" name="date" required>
+           
+          
+       </form>
+       <form action="confirm.html" >
+        <button type="submit" style="width: 50%; background-color: #007bff;color: white; border: none; height: 25px; left: 25%; position: relative;">BOOK NOW </button>
+      </form>
+   </div>
+</body>
+</html>
