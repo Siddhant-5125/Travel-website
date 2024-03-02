@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Athithi Dev Bhava</title>
+    <style>
+       
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgb(255,217,151);
+background: linear-gradient(90deg, rgba(255,217,151,1) 0%, rgba(218,152,42,1) 33%, rgba(196,116,28,1) 100%);
+            color: #333;
+        }
+
+        /* header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        } */
+
+        nav {
+            
+    height: 60px;
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    padding-top: 25px;
+}
+nav:hover {
+    display: block; /* Display the navigation when hovered over */
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 10px;
+}
+nav a:hover {
+    color: #555;
+}
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            display: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+        h2{
+            color: #333;
+    text-align: center;
+    font-size: 50px;
+        }
+    </style>
+    
+</head>
+<body >
+    <!-- <header>
+        <h1>About Us</h1>
+    </header> -->
+    <nav style="height: 70px;">
+        <!--<img src="WhatsApp Image 2024-02-23 at 10.40.44.jpeg" style="height: 50px; width: 50px; ">-->
+        <a href="travel-india.html">Home</a>
+        <a href="destination.html">Destinations</a>
+        <a href="booking.html">Booking</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="abus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2 style="font-weight:100px; color: white;">Welcome to Indian Travels</h2>
+        <p style="color: white;">~Athithi Dav Bhava</p>
+        <p style="color: white;">We are dedicated to providing global travelers with an immersive experience that connects them to diverse cultures around the world. Our mission is to blend traditional hospitality with cutting-edge technology, creating an inclusive and engaging environment for all our guests. Join us on a journey of discovery and cultural exchange as we explore destinations together!</p>
+    </section>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4" style="color: white;">Frequently Asked Questions</h1>
+
+        <div class="accordion" id="faqAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Question 1: What is Athithi Dev Bhava?
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Answer 1: Athithi Dev Bhava is a hospitality service that aims to blend traditional hospitality with cutting-edge technology to provide an inclusive and engaging environment for global travelers.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Question 2: How can I book a trip with Indian Travels?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Answer 2: You can book a trip with Indian Travels by visiting our website and selecting your desired destination. Follow the booking process and complete your reservation online.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Question 3: What destinations does Indian Travels offer?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Answer 3: Indian Travels offers a wide range of destinations of India, including popular tourist spots, cultural landmarks, and natural wonders.
+                    </div>
+                </div>
+            </div>
+            <!-- Add more questions and answers as needed -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
